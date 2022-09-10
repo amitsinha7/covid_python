@@ -1,8 +1,8 @@
 # covid_python
 
-covid_case(validate_date, file_name, display_numbers, only_location, location_type):
+## covid_case(validate_date, file_name, display_numbers, only_location, location_type):
  
-Restrict Input as follows:
+## Restrict Input as follows:
 
 **validate_date** as Mmm-YYYY ex: Feb-2021
 
