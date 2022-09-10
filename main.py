@@ -24,11 +24,11 @@ def covid_case(validate_date, file_name, display_numbers, only_location, locatio
         if only_location:
             res = nlargest(display_numbers, result, key=result.get)
             # printing result
-            print("The top countries which are effected due to new arises cases are  " + str(res))
+            print("The top "+str(display_numbers)+" countries which are effected due to new arises cases are  " + str(res))
         else:
             res = nlargest(display_numbers, result, key=result.get)
             for val in res:
-                print("The top 10 countries which are effected due to new arises cases are " + val, ":",
+                print("The top "+str(display_numbers)+" countries which are effected due to new arises cases are " + val, ":",
                       result.get(val))
 
 
